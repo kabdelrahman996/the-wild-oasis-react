@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Logo from "./Logo";
 import MainNav from "./MainNav";
+import AboutMe from "./AboutMe";
 
 const StyledSidebar = styled.aside`
   grid-row: 1 / -1;
@@ -18,6 +19,7 @@ function Sidebar() {
     <StyledSidebar>
       <Logo />
       <MainNav />
+      <AboutMe />
     </StyledSidebar>
   );
 }
