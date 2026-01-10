@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Heading from "./Heading";
 
 // margin-top: "auto",
 //         background-color: "#e0e7ff",
@@ -11,7 +12,7 @@ import styled from "styled-components";
 
 const StyledContainer = styled.div`
   margin-top: auto;
-  background-color: #e0e7ff;
+  background-color: var(--color-grey-200);
   padding: 8px;
   border-radius: 8px;
   text-align: center;
@@ -27,6 +28,7 @@ const P = styled.p`
   font-weight: 700;
   letter-spacing: 1px;
   text-align: center;
+  color: var(--color-grey-900);
 `;
 
 const LinkedButton = styled.a`
