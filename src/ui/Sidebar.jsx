@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Logo from "./Logo";
 import MainNav from "./MainNav";
 import AboutMe from "./AboutMe";
+import Uploader from "../data/Uploader";
 
 const StyledSidebar = styled.aside`
   grid-row: 1 / -1;
